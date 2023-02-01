@@ -1,0 +1,133 @@
+.clock-digit-circle{
+    position: relative;
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    left: 400px;
+    top: 30px;
+    border: 3px solid black;
+    z-index: 1;
+    padding: 50;
+}
+
+.number-1{
+    position:absolute;
+    left: 441px;
+    top: 18px;
+}
+.number-2{
+    position:absolute;
+    left: 542px;
+    top: 122px;
+}
+.number-3{
+    position:absolute;
+    left: 579px;
+    top: 262px;
+}
+.number-4{
+    position:absolute;
+    left: 541px;
+    top: 406px;
+}
+.number-5{
+    position:absolute;
+    left: 437px;
+    top: 511px;
+}
+.number-6{
+    position:absolute;
+    left: 295px;
+    top: 550px;
+}
+.number-7{
+    position:absolute;
+    left: 149px;
+    top: 511px;
+}
+.number-8{
+    position:absolute;
+    left: 45px;
+    top: 405px;
+}
+.number-9{
+    position:absolute;
+    left: 10px;
+    top: 262px;
+}
+.number-10{
+    position:absolute;
+    left: 35px;
+    top: 119px;
+}
+.number-11{
+    position:absolute;
+    left: 146px;
+    top: 12px;
+}
+.number-12{
+    position:absolute;
+    left: 288px;
+    top: -25px;
+}
+
+
+
+.clock {
+    position: absolute;
+    background: lightblue;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    top: 50px;
+    left: 50px;
+    border: 3px solid black;
+    /* z-index: 2; */
+ 
+    
+}
+
+.clock-center{
+    position: absolute;
+    background-color: black;
+    margin: 0;
+    left: 245px;
+    top: 245px;
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+}
+
+.second-hand{
+position: absolute;
+margin: 0;
+background: linear-gradient(black 60%, rgba(173, 216, 230,0) 40%);
+width: 3px;
+height: 500px;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+}
+.minute-hand{
+    position: absolute;
+    margin: 0;
+    background: linear-gradient(green 60%, rgba(173, 216, 230, 0) 40%);
+    width: 3px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+.hour-hand{
+    position: absolute;
+    margin: 0;
+    background: linear-gradient(red 60%, rgba(173, 216, 230, 0) 40%);
+    width: 3px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+}
+
+
